@@ -1,0 +1,20 @@
+{
+  "name": "astro-uno",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deepclean": "rm -rf node_modules && pnpm i",
+    "retry": "rm -rf dist node_modules/.vite && pnpm build",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.6.3"
+  },
+  "devDependencies": {
+    "unocss": "^0.59.4"
+  }
+}
